@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('disease-prediction-using-machine-learning.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 30%; /* Adjust the width of the container as needed */
+    margin: auto; /* Center the container horizontally */
+    text-align: center; /* Center-align text content */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+}
+
+/* Adjust margin-top value to bring "Add symptoms" box down */
+.container h1 {
+    margin-top: 20px; 
+}
+
+.add-more {
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+
+.textbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space between textboxes */
+     /* Adjust margin-top value to bring the "Add symptoms" box down */
+     margin-top: 20px;
+}
+
+.textbox input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-more {
+    margin-top: 30px; /* Adjust the margin to bring the section down */
+    margin-bottom: 20px; /* Add space between last textbox and the add more section */
+}
+
+.add-more span.plus {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 24px;
+    color: white;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.add-more p {
+    margin: 0;
+}
+
+.search {
+    margin-top: 20px; /* Add space between add more section and search button */
+}
+
+.search button {
+    background-color: #007bff; /* Blue color for search button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button i {
+    margin-right: 5px;
+}
